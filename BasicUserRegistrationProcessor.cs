@@ -19,7 +19,7 @@ namespace Chain.Of.Responsibility.Example
 
             if (user.BirthDate.Year > DateTime.Now.Year - 18)
             {
-                throw new Exception("Password is required.");
+                throw new Exception("Age under 18 is not allowed.");
             }
         }
     }
